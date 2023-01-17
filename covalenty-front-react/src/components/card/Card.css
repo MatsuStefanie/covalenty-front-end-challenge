@@ -1,0 +1,55 @@
+.card {
+  display: grid;
+  background: #1E1E1E;
+  border-radius: 30px;
+  justify-items: end;
+  justify-content: space-evenly;
+  max-width: 25%;
+  min-width: 300px;
+  margin: 1%;
+}
+
+
+div.image {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 2% 10%;
+  overflow: scroll;
+}
+
+.tag {
+  background: #14AE2C;
+  padding: 1.6%;
+  color: #282C34;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 2vw;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  width: 100%;
+  justify-content: center;
+}
+
+p {
+  color: #626C80;
+  font-size:  medium;
+  width: 50%;
+  text-overflow: ellipsis; 
+  overflow: hidden; 
+  white-space: nowrap;
+  text-align: left;
+}
+
+h3 {
+  font-size: 100%;
+  text-align: right;
+  color: #14AE2C;
+  width: 35%;
+  margin: 0;
+  object-fit: cover;
+}

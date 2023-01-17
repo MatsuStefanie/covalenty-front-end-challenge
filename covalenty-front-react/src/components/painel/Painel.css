@@ -1,0 +1,23 @@
+.headerPainel {
+  display: flex;
+  flex-direction: row;
+  width: calc(100vw /12 *11);
+  margin: 0 auto;
+  align-items: baseline;
+}
+
+h1 {
+  color: #1E1E1E;
+}
+
+h2 {
+  color: #626C80;
+}
+
+div.gridCard {
+  width: calc(100vw /12 *11);
+  display: flex;
+  margin: 0 auto;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}

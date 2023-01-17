@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+    width: calc(100vw /12 *11);
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.carrossel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  gap: 1vw;
+  justify-content: space-between;
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: x-large;
+  text-transform: capitalize;
+  padding: 1vw;
+  min-width: 15vw;
+  height: 10vmin;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+  background-blend-mode: overlay;
+  cursor: pointer;
+}
